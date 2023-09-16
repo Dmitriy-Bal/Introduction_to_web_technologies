@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "MyFont";
+    src: url("../font/teddy-bear.ttf");
+}
+
+html {
+    background-color: #f5f5dc;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: blue;
+    font-family: "MyFont", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: blueviolet;
+}
+
+ul {
+    list-style-type: inherit;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+.img1 {
+    width: 300px;
+}
+
+.border {
+    border: 5px solid rgb(40, 169, 42);
+}
+
+.img2 {
+    width: 400px;
+}
+
+.bigtext {
+    font-size: 2.5em;
+}
+
+a {
+    color: rgb(109, 0, 128);
+}
+
+a:hover {
+    color: rgb(234, 87, 13);
+}
